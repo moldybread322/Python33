@@ -4,9 +4,12 @@ high_score = 0
 attempts = 0
 max_attempts = 3
 
+def introduction():
+    print("lets do this!")
+
 while True:
-    if attempts == 0:
-        print ("lets do this!")
+    
+    introduction()
     
     num1 = random.randint(1,20)
     num2 = random.randint(1,20)
