@@ -27,7 +27,7 @@ while True:
         print("game over, ig your just different")
         if score > high_score:
             high_score = score
-            print(f"new high score is: {high_score}")
+            print(f"you got {high_score}")
 
         play_again = input("play again (yes/No):")
         if play_again.lower() == "no":
