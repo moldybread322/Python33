@@ -5,7 +5,7 @@ high_score = 0
 attempts = 0
 max_attempts = 3
 
-difficultyLevels = ["1 digit", "2 digit", "3 digit", "4 digit", "1-5 digits"]
+difficultyLevels = ["1 digit #", "2 digit #", "3 digit #", "4 digit #", "1-5 digit #'s"]
 
 # This functions generates random numbers based on difficuluty provided and returns the numbers
 def generateRandomNumbers( difficulty ):
