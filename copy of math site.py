@@ -21,7 +21,7 @@ def generateRandomNumbers( difficulty ):
         num2 = random.randint(100,999)
     elif difficulty == 4:
         num1 = random.randint(1000,9999)
-        num2 = random.randint(1000000000,9999999999)
+        num2 = random.randint(1000,9999)
     elif difficulty == 5:
         num1 = random.randint(1,99999)
         num2 = random.randint(1,99999)
